@@ -27,7 +27,6 @@ export function ExperienceBar(){
       <span>{experienceToNextLevel}xp</span>
       
       <span className='SwitchToggle'> 
-        {console.log(theme)}
         <Switch 
           onChange={toggleTheme}
           checked={theme === 'dark'}
