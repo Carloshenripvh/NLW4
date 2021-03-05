@@ -6,7 +6,6 @@ import Document,{
   DocumentContext
 } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import Page from '../components/SEO';
 
 export default class MyDocument extends Document{
   static async getInitialProps(ctx: DocumentContext) {
@@ -39,13 +38,13 @@ export default class MyDocument extends Document{
     return(
       <Html lang="pt-BR">
         <Head>
+
         <link rel="shortcut icon" href="favicon.png" type="image/png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
          rel="stylesheet" 
          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&Rajdhani:wght@600&display=swap" 
          />
-        <Page />
         </Head>
         <body>
           <Main  />
