@@ -16,7 +16,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://imgbox.com/GC2HArVI',
+        url: 'https://images2.imgbox.com/57/d6/GC2HArVI_o.png', 
         alt: title,
         width: 1280,
         height: 720,
