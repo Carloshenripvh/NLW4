@@ -6,6 +6,7 @@ import Document,{
   DocumentContext
 } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import Page from '../components/SEO';
 
 export default class MyDocument extends Document{
   static async getInitialProps(ctx: DocumentContext) {
@@ -44,9 +45,7 @@ export default class MyDocument extends Document{
          rel="stylesheet" 
          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&Rajdhani:wght@600&display=swap" 
          />
-        <metadata  type="image/png" href="moveit.png" />
-
-
+        <Page />
         </Head>
         <body>
           <Main  />
