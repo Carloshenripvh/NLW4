@@ -16,7 +16,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://github.com/Carloshenripvh/NLW4/blob/main/public/moveitgit.png',
+        url: 'public/moveitgit.png',
         alt: title,
         width: 1280,
         height: 720,
