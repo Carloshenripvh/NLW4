@@ -16,7 +16,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://knowpathology.com.au/app/uploads/2018/07/Happy-Test-Screen-01-825x510.png',
+        url: 'https://imgbox.com/GC2HArVI',
         alt: title,
         width: 1280,
         height: 720,
