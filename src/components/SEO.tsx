@@ -16,7 +16,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'public/moveitgit.png',
+        url: 'https://knowpathology.com.au/app/uploads/2018/07/Happy-Test-Screen-01-825x510.png',
         alt: title,
         width: 1280,
         height: 720,
