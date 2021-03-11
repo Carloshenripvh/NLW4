@@ -2,7 +2,7 @@ import  React from 'react';
 import { AppProps } from 'next/app';
 import { ThemeProvider } from '../contexts/ThemeContext';
 import { DefaultSeo } from 'next-seo';
-import SEO from '../components/SEO';
+import SEO from '../contexts/SEO';
 
 
 

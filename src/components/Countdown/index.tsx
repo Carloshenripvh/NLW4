@@ -1,6 +1,6 @@
-import { useState, useEffect, useContext } from 'react';
-import { CountdownContext } from '../contexts/CountdownContext';
-import { CountdownButton, CountdownContainer,CountdownButtonActive } from '../styles/components/Countdown';
+import { useContext } from 'react';
+import { CountdownContext } from '../../contexts/CountdownContext';
+import { CountdownButton, CountdownContainer,CountdownButtonActive } from '../Countdown/styles';
 
 
 

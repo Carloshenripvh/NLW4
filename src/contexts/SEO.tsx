@@ -1,5 +1,3 @@
-
-
 const title = 'Moveit';
 
 const description = 'Moveit, aumentando sua produtividade e mantendo sua saúde.';

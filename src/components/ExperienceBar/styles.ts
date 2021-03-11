@@ -29,7 +29,7 @@ const ExperienceBarheader = styled.header`
   transform: translateX(-50%);
   }
   /* switch dark */
-  span.SwitchToggle{
+  span.SwitchToggle{  /* SwitchToggle */
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import { ChallengesContext } from '../contexts/ChallengsContext';
-import { Container, Overlay } from '../styles/components/LevelUpModal';
+import { ChallengesContext } from '../../contexts/ChallengsContext';
+import { Container, Overlay } from '../LevelUpModal/styles';
 
 
 export function LevelUpModal(){
